@@ -3,9 +3,9 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ReactHtmlParser from "react-html-parser";
-import CoinInfo from "../Components/CoinInfo";
+import CoinInfo from "./CoinInfo";
 import { SingleCoin } from "../config/api";
-import { numberWithCommas } from "../Components/CoinsTable";
+import { numberWithCommas } from "./CoinsTable";
 import { CryptoState } from "../CryptoContext";
 
 const CoinPage = () => {
